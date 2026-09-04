@@ -1,0 +1,15 @@
+on message send event
+award user xp in database (rand 15-40) -> check if xp is >= next level threshold
+threshold starts at 75 and adds 15 each level (next level, add 15 to threshold)
+/level will pull the xp from database along with the level in a neat message
+
+database will have a collection per user (different database per guild is possible)
+BEFORE xp adding, make sure the user has a collection (if they dont, make one and put this as the data):
+{
+    "level": "0",
+    "xp": "0",
+    "threshold": "75"
+}
+this is the default json
+on message send event get user id, go into the user's collection, update the json by adding
+a random number between 15-40 to the "xp" object

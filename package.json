@@ -1,0 +1,26 @@
+{
+  "name": "levelling-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hdfsyu",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "discord.js": "^14.27.0",
+    "mongodb": "7.1"
+  },
+  "allowScripts": {
+    "@google/genai@2.19.0": true,
+    "protobufjs@7.6.6": true
+  }
+}

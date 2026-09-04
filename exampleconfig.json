@@ -1,0 +1,22 @@
+{
+    "token": "DISCORD_BOT_TOKEN",
+    "clientId": "CLIENT_ID_FROM_COPY_ID_BUTTON",
+    "guildId": "GUILD_ID_FROM_COPY_ID_BUTTON",
+    "mongoURI": "MONGODB_SRV_LINK_HERE",
+    "dbName": "DB_NAME_FOR_BOT_STUFF_HERE",
+    "countingChannelId": "COUNTING_CHANNEL_ID_FROM_COPY_ID_BUTTON",
+    "logsChannelId": "LOGS_CHANNEL_ID_FROM_COPY_ID_BUTTON",
+    "confessionsChannelId": "CONFESSIONS_CHANNEL_ID_FROM_COPY_ID_BUTTON",
+    "aiKey": "GEMINI_API_KEY",
+    "levelRoles": {
+        "level5": "LEVEL5_ROLE_FROM_COPY_ID_BUTTON",
+        "level10": "LEVEL10_ROLE_FROM_COPY_ID_BUTTON",
+        "level15": "LEVEL15_ROLE_FROM_COPY_ID_BUTTON",
+        "level20": "LEVEL20_ROLE_FROM_COPY_ID_BUTTON",
+        "level25": "LEVEL25_ROLE_FROM_COPY_ID_BUTTON",
+        "level30": "LEVEL30_ROLE_FROM_COPY_ID_BUTTON",
+        "level50": "LEVEL50_ROLE_FROM_COPY_ID_BUTTON",
+        "level100": "LEVEL100_ROLE_FROM_COPY_ID_BUTTON"
+    },
+    "defaultStatus": "EXAMPLE STATUS"
+}

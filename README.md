@@ -1,8 +1,6 @@
 # can sum1 PR a readme 4 me? kthxbye
-1. `npm i @google/genai`
-2. `npm i discordjs`
-3. `npm i mongodb`
-4. fill in `exampleconfig.json`
-5. rename `exampleconfig.json` -> `config.json`
-6. `node .`
-7. boom, self hosted. also it supports multiple guilds!
+1. `npm i @google/genai discordjs mongodb`
+2. fill in `exampleconfig.json`
+3. rename `exampleconfig.json` -> `config.json`
+4. `node .`
+5. boom, self hosted. also it supports multiple guilds!
